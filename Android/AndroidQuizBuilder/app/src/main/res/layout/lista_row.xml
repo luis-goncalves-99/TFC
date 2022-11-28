@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@drawable/teste"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/titulo"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="7"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id = "@+id/dificuldade"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="3"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id = "@+id/data"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_weight="5"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alert"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:text="Modos de Jogo :">
+
+    </TextView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button_classico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_geral"
+            android:text="Clássico"
+            android:layout_margin="10dp"
+            android:textSize="12sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_contra_relogio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_geral"
+            android:text="Contra Relógio"
+            android:layout_margin="10dp"
+            android:textSize="12sp">
+
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button_morte_subita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_geral"
+            android:text="Morte Súbita"
+            android:layout_margin="10dp"
+            android:textSize="12sp">
+
+        </Button>
+        <Button
+            android:background="@drawable/button_geral"
+            android:id="@+id/button_todos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="todos"
+            android:layout_margin="10dp"
+            android:textSize="12sp">
+        </Button>
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:id="@+id/ll">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+
+            android:layout_marginRight="15dp"
+            android:scaleType="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:id="@+id/image_view"
+            android:layout_marginBottom="15dp" />
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resumo"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Estatísticas do Questionário"
+        android:layout_marginTop="75dp"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sad_face"
+        android:id="@+id/img1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txt_qtd_certas"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txt_qtd_erradas"/>
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txt_score"/>
+    <Button
+        android:background="@drawable/button_login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/botao_enviar"
+        android:text="Voltar ao Menu">
+
+    </Button>
+
+
+</LinearLayout>
